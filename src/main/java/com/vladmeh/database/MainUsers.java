@@ -7,7 +7,7 @@ import java.sql.Statement;
 /**
  * @autor mvl on 10.10.2017.
  */
-public class Main {
+public class MainUsers {
     public static void main(String[] args) {
         DBWorker worker = new DBWorker();
 

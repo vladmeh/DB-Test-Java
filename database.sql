@@ -29,3 +29,22 @@ create table users
   ENGINE = innoDB
   DEFAULT CHARACTER SET = utf8
 ;
+
+DROP TABLE IF EXISTS dish;
+create table dish
+(
+	id int auto_increment
+		primary key,
+	title varchar(45) null,
+	description varchar(255) null,
+	rating double null,
+	published tinyint null,
+	created date null,
+	icon longblob null,
+	constraint dish_id_uindex
+		unique (id)
+)
+  ENGINE = innoDB
+  DEFAULT CHARACTER SET = utf8
+;
+

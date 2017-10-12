@@ -3,7 +3,7 @@ package com.vladmeh.database;
 
 import java.sql.*;
 
-public class Solution {
+public class MainAnimals {
 
     public static void main(String[] args) {
         DBWorker worker = new DBWorker();
